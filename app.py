@@ -91,7 +91,8 @@ interface = gr.Interface(
         gr.Textbox(label="Generated AI Prompt:"),
         gr.Markdown(label="AI Response:")
     ],
+
     title="Create an AI App using the Nvidia AI Model"
 )
-
+layout="vertical",  # Ensures the layout is in a single column
 interface.launch()
