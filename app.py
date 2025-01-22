@@ -89,7 +89,7 @@ interface = gr.Interface(
     ],
     outputs=[
         gr.Textbox(label="Generated AI Prompt:"),
-        gr.Textbox(label="AI Response:")
+        gr.Markdown(label="AI Response:")
     ],
     title="Create an AI App using the Nvidia AI Model"
 )
